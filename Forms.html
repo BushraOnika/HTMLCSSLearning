@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h2>HTML Form Learning</h2>
+    <form action="backend.php">
+        <label for="name">Name</label>
+        <div>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <!-- not rcomemded at all cuase we wil do it on CSS -->
+        <label for="role">Role: </label>
+        <div>
+            <input type="text" name="myRole" id="role">
+        </div>
+        <br>
+        <label for="email">Email:</label>
+        <div>
+            <input type="email" name="myName" id="email">
+        </div>
+        <br>
+        <label for="date">Date : </label>
+        <div>
+            <input type="date" name="myDate" id="date">
+        </div>
+        <br>
+        <div>
+            Age: <input type="number" name="myAge" id="">
+        </div>
+        <br>
+        <div>
+            Are you Cricket Lover:
+            <input type="checkbox" name="myCheck" id="">
+        </div>
+        <br>
+        <div>
+            Gender:
+            Male <input type="radio" name="myGender" id="">
+            Female <input type="radio" name="myGender" id="">
+        </div>
+        <br>
+        <div>
+            Write About Yourself:<br>
+             <textarea name="" id="" cols="50" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="car">Car</label>
+            <select name="myCar" id="car">
+                <option value="ind">Indica</option>
+                <option value="swf" selected>Swift</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset now">
+        </div>
+    </form>
+</body>
+
+</html>
